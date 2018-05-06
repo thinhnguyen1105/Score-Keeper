@@ -5,10 +5,10 @@ class NameRow extends Component {
     return (
         <div>
         <div className="namerow" id="nameRow">
-            <div className="name">Shounen A</div>
-            <div className="name">Shounen B</div>
-            <div className="name">Shounen C</div>
-            <div className="name">Shounen D</div>
+            <div className="name">{this.props.name1}</div>
+            <div className="name">{this.props.name2}</div>
+            <div className="name">{this.props.name3}</div>
+            <div className="name">{this.props.name4}</div>
         </div>
     
         <div className="namerow">

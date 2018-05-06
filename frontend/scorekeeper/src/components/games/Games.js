@@ -42,7 +42,7 @@ class Games extends Component {
   render() {
     return (
       <div>
-        <NameRow sum1={this.state.sum1} sum2={this.state.sum2} sum3={this.state.sum3} sum4={this.state.sum4} />
+        <NameRow sum1={this.state.sum1} sum2={this.state.sum2} sum3={this.state.sum3} sum4={this.state.sum4} name1={this.props.name1} name2={this.props.name2} name3={this.props.name3} name4={this.props.name4}   />
         {this.state.rows.map((r) => (
           <div >{r}</div>))}
         <ButtonAddRow onclick = {this._addRow}/>
